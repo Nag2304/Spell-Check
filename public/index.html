@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spell Checker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Spell Checker</h1>
+    <form id="spellCheckForm">
+      <textarea id="textInput" placeholder="Enter text here..."></textarea>
+      <button type="submit">Check Spelling</button>
+    </form>
+    <div id="output">
+      <h2>Corrections:</h2>
+      <p id="originalText"></p>
+      <div id="corrections"></div>
+      <div id="error"></div> <!-- Display error messages here -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
